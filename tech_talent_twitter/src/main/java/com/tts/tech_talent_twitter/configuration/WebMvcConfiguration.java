@@ -15,3 +15,5 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
     }
 
 }
+
+// Help us set up our password encoder

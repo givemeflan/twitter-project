@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TechTalentTwitterApplication<tech_talent_twitter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tts.tech_talent_twitter.TechTalentTwitterApplication",
+            "projectName": "tech_talent_twitter",
+            "args": ""
+        }
+    ]
+}

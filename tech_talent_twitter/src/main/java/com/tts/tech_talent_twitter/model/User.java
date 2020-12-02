@@ -20,6 +20,8 @@ import javax.validation.constraints.Pattern;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.validator.constraints.Length;
 
+//Lombok was not used here, as a result, we have to comment out the import and annotations. In addition we had to manually input setters and getters (through source action).
+
 // import lombok.Data;
 // import lombok.Builder;
 // import lombok.AllArgsConstructor;
@@ -81,6 +83,7 @@ public class User {
     @ManyToMany(mappedBy = "followers")
     private List<User> following;
 
+    // Only having a getter for id here, no setter
     public Long getId() {
         return id;
     }
